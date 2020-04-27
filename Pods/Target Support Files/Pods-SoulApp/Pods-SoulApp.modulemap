@@ -1,0 +1,6 @@
+framework module Pods_SoulApp {
+  umbrella header "Pods-SoulApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

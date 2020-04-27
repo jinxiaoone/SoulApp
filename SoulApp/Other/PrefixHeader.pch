@@ -1,0 +1,36 @@
+//
+//  PrefixHeader.pch
+//  SoulApp
+//
+//  Created by shiyu on 2020/4/17.
+//  Copyright © 2020 shiyu. All rights reserved.
+//
+#ifdef __OBJC__
+
+#import "UtilsMacros.h"
+#import "CommonDefine.h"
+
+
+#import "DBaseModel.h"
+
+
+
+#import "SLBaseViewController.h"
+
+/*---------------扩展----------------*/
+#import "AppDelegate+AppConfig.h"
+
+#import "DBaseModel+Search.h"
+#import "DBaseModel+TODBModel.h"
+
+/*--------------第三方----------------*/
+#import <Masonry/Masonry.h>
+#import <YYKit.h>
+#import <FMDB.h>
+
+
+#import "YLImageView.h"
+#import "YLGIFImage.h"
+
+
+#endif
